@@ -8,7 +8,7 @@ class Account {
             throw new Exception("Amount is < 0");
         }
 
-        $this->funds += $amount;
+        $this->funds += ($amount);
     } 
 
     public function getFunds() {
